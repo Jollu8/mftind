@@ -52,6 +52,24 @@ build CMakeFiles/mft_ind_main.dir/main.cpp.o: CXX_COMPILER__mft_ind_main_Debug /
   OBJECT_DIR = CMakeFiles/mft_ind_main.dir
   OBJECT_FILE_DIR = CMakeFiles/mft_ind_main.dir
 
+build CMakeFiles/mft_ind_main.dir/matcher.cpp.o: CXX_COMPILER__mft_ind_main_Debug /Users/jolluemil/Desktop/mftind_git/src/matcher.cpp || cmake_object_order_depends_target_mft_ind_main
+  DEP_FILE = CMakeFiles/mft_ind_main.dir/matcher.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -Wall -Wextra -pedantic -Werror -std=gnu++17
+  OBJECT_DIR = CMakeFiles/mft_ind_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/mft_ind_main.dir
+
+build CMakeFiles/mft_ind_main.dir/statcollector.cpp.o: CXX_COMPILER__mft_ind_main_Debug /Users/jolluemil/Desktop/mftind_git/src/statcollector.cpp || cmake_object_order_depends_target_mft_ind_main
+  DEP_FILE = CMakeFiles/mft_ind_main.dir/statcollector.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -Wall -Wextra -pedantic -Werror -std=gnu++17
+  OBJECT_DIR = CMakeFiles/mft_ind_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/mft_ind_main.dir
+
+build CMakeFiles/mft_ind_main.dir/threadedmathcer.cpp.o: CXX_COMPILER__mft_ind_main_Debug /Users/jolluemil/Desktop/mftind_git/src/threadedmathcer.cpp || cmake_object_order_depends_target_mft_ind_main
+  DEP_FILE = CMakeFiles/mft_ind_main.dir/threadedmathcer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -Wall -Wextra -pedantic -Werror -std=gnu++17
+  OBJECT_DIR = CMakeFiles/mft_ind_main.dir
+  OBJECT_FILE_DIR = CMakeFiles/mft_ind_main.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target mft_ind_main
@@ -60,7 +78,7 @@ build CMakeFiles/mft_ind_main.dir/main.cpp.o: CXX_COMPILER__mft_ind_main_Debug /
 #############################################
 # Link the executable mft_ind_main
 
-build mft_ind_main: CXX_EXECUTABLE_LINKER__mft_ind_main_Debug CMakeFiles/mft_ind_main.dir/main.cpp.o | libmft_ind_lib.a || libmft_ind_lib.a
+build mft_ind_main: CXX_EXECUTABLE_LINKER__mft_ind_main_Debug CMakeFiles/mft_ind_main.dir/main.cpp.o CMakeFiles/mft_ind_main.dir/matcher.cpp.o CMakeFiles/mft_ind_main.dir/statcollector.cpp.o CMakeFiles/mft_ind_main.dir/threadedmathcer.cpp.o | libmft_ind_lib.a || libmft_ind_lib.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   LINK_LIBRARIES = libmft_ind_lib.a
   OBJECT_DIR = CMakeFiles/mft_ind_main.dir

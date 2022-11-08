@@ -11,7 +11,7 @@ configure_file(
         ${CMAKE_CURRENT_BINARY_DIR}/versiondef.h
 )
 
-add_executable(mft_ind_main main.cpp)
+add_executable(mft_ind_main main.cpp imatcher.h istatcollector.h matcher.cpp matcher.h imatcher.h istatcollector.h statcollector.cpp statcollector.h istatcollector.h threadedmatcher.h threadedmathcer.cpp using.h)
 add_library(mft_ind_lib version.cpp)
 
 set_target_properties(mft_ind_main mft_ind_lib PROPERTIES
