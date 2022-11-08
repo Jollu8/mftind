@@ -1,5 +1,5 @@
 
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.2)
 
 set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VERSION 0.0.${PATCH_VERSION})
@@ -15,7 +15,7 @@ add_executable(mft_ind_main main.cpp)
 add_library(mft_ind_lib version.cpp)
 
 set_target_properties(mft_ind_main mft_ind_lib PROPERTIES
-        CXX_STANDARD 20
+        CXX_STANDARD 17
         CXX_STANDARD_REQUIRED ON
         )
 

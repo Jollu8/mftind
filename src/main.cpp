@@ -63,7 +63,7 @@ Example: ./mtfind huge.txt "?ad")";
         return 1;
     }
 
-    if (mask.find('\n') != -1) {
+    if (mask.find('\n') != -1ul) {
         std::cerr << "Mask has newline inside" << std::endl;
         return 1;
     }
