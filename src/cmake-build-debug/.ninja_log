@@ -1,6 +1,0 @@
-# ninja log v5
-1	227	1667919467929141765	CMakeFiles/mft_ind_lib.dir/version.cpp.o	2d1cfbd81dff051b
-227	246	1667919467950197000	libmft_ind_lib.a	a94c87ac578c9720
-0	569	1667919468270880319	CMakeFiles/mft_ind_main.dir/main.cpp.o	796d8a987d7f49cf
-8	309	1667919730355604136	CMakeFiles/mft_ind_main.dir/matcher.cpp.o	21ceaeebd40b7cdb
-8	356	1667919730402987431	CMakeFiles/mft_ind_main.dir/statcollector.cpp.o	68605d4c7ba884a6

@@ -1,6 +1,9 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.13.0)
+project(mtfind)
 
-project(mft_ind_main)
+set(CMAKE_CXX_STANDARD 17)
 
-enable_testing()
-add_subdirectory(src)
+
+file(GLOB SOURCES ${PROJECT_SOURCE_DIR} "*.cpp" "*.hpp")
+
+add_executable(mtfind ${SOURCES})
